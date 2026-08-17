@@ -1,0 +1,31 @@
+{
+  "heading": "Achievements",
+  "subheading": "Milestones of impact and public service",
+  "stats": [
+    { "label": "Public Events Organized", "value": 200, "suffix": "+" },
+    { "label": "Villages Covered", "value": 500, "suffix": "+" },
+    { "label": "Volunteers Mobilized", "value": 10000, "suffix": "+" },
+    { "label": "Years of Service", "value": 10, "suffix": "+" }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "title": "Strengthened District Party Organization",
+      "description": "Built and expanded Janasena  's organizational presence across Nellore district through sustained grassroots outreach.",
+      "icon": "FaTrophy"
+    },
+    {
+      "id": 2,
+      "title": "Advocacy Against Corruption",
+      "description": "Consistently raised issues of local governance accountability, including alleged irregularities in sand reach management and public administration.",
+      "icon": "FaShieldAlt"
+    },
+    {
+      "id": 3,
+      "title": "Party Foundation Day Leadership",
+      "description": "Led district-level celebrations marking Janasena Party's foundation, reaffirming the party's founding ideals to workers and the public.",
+      "icon": "FaFlag"
+    }
+  ],
+  "_note": "Stats duplicate about.json's stats block for the animated-counter grid on this section — keep both in sync or centralize later. All figures are placeholders pending verified data."
+}

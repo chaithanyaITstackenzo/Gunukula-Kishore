@@ -1,0 +1,68 @@
+.wrap { background: var(--color-bg); position: relative; }
+.header { text-align: center; max-width: 640px; margin: 0 auto 50px; display: flex; flex-direction: column; align-items: center; }
+
+.grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 40px; }
+
+.infoItem { display: flex; gap: 16px; margin-bottom: 26px; }
+.infoIcon { color: var(--color-primary); font-size: 20px; margin-top: 4px; flex-shrink: 0; }
+.infoItem h4 { font-size: 15px; margin-bottom: 4px; }
+.infoItem p { color: var(--color-gray); font-size: 14.5px; }
+
+.social { display: flex; gap: 12px; margin-bottom: 26px; }
+.socialBtn {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--color-white); box-shadow: var(--shadow-soft);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--color-primary);
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+.socialBtn:hover { background: var(--gradient-primary); color: #fff; transform: translateY(-3px); }
+
+.mapWrap { border-radius: 14px; overflow: hidden; box-shadow: var(--shadow-soft); height: 220px; }
+.mapWrap iframe { width: 100%; height: 100%; border: 0; }
+
+.form {
+  background: var(--color-white);
+  border-radius: 18px;
+  padding: 36px;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+}
+
+.form label { font-size: 13px; font-weight: 600; margin: 14px 0 6px; }
+.form label:first-child { margin-top: 0; }
+.form input, .form textarea {
+  border: 1px solid var(--color-gray-light);
+  border-radius: 8px;
+  padding: 13px 16px;
+  font-size: 14.5px;
+  font-family: var(--font-body);
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+.form input:focus, .form textarea:focus { outline: none; border-color: var(--color-primary); }
+.form button { margin-top: 22px; }
+
+.floatingBtn {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-red-glow);
+  z-index: 500;
+  transition: transform 0.3s ease;
+}
+.floatingBtn:hover { transform: scale(1.1); }
+.whatsapp { background: var(--color-success); box-shadow: 0 10px 30px rgba(0,146,69,0.35); }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+}

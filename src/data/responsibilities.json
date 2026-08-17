@@ -1,0 +1,31 @@
+{
+  "heading": "Party Responsibilities",
+  "subheading": "Roles held within the Janasena Party organization",
+  "items": [
+    {
+      "id": 1,
+      "title": "Ex-Youth Wing President (Yuvajana Vibhagam Adhyakshudu)",
+      "organization": "Janasena Party, Nellore District",
+      "period": "",
+      "icon": "FaUsers",
+      "description": "Leads the youth wing and mobilizes young Jana Sainiks across Nellore."
+    },
+    {
+      "id": 2,
+      "title": "Ex-District General Secretary",
+      "organization": "Janasena Party, Nellore District",
+      "period": "",
+      "icon": "FaUsers",
+      "description": "Oversees party organization, coordinates with district and state leadership and mobilizes Jana Sainiks across Nellore district."
+    },
+    {
+      "id": 3,
+      "title": "Grassroots Coordinator",
+      "organization": "Janasena Party, Nellore District",
+      "period": "Ongoing",
+      "icon": "FaHandshake",
+      "description": "Coordinates outreach programs, flag-hoisting events and party foundation day celebrations at the district level."
+    }
+  ],
+  "_note": "Confirm exact titles/periods with the source site — these are inferred from news coverage identifying Kishore as 'district general secretary'."
+}

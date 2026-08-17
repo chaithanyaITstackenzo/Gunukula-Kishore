@@ -1,0 +1,510 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background: var(--color-black);
+}
+
+/* =========================================================
+   HERO BACKGROUND
+   ========================================================= */
+
+.bgLayer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  transform: scale(1.08);
+  animation: slowZoom 20s ease-in-out infinite alternate;
+}
+
+.mobileImageWrap {
+  display: none;
+}
+
+.mobileImageWrap img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9/11;
+  object-fit: cover;
+  object-position: 65% center;
+}
+
+.mobileImageWrap::after {
+  content: '';
+  display: block;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+@keyframes slowZoom {
+  from {
+    transform: scale(1.08);
+  }
+
+  to {
+    transform: scale(1.16);
+  }
+}
+
+/* =========================================================
+   HERO OVERLAY
+   ========================================================= */
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(17, 17, 17, 0.92) 0%,
+      rgba(17, 17, 17, 0.72) 38%,
+      rgba(17, 17, 17, 0.42) 68%,
+      rgba(17, 17, 17, 0.25) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0.25) 0%,
+      rgba(17, 17, 17, 0.55) 100%
+    );
+}
+
+/* =========================================================
+   DECORATIVE SHAPES
+   ========================================================= */
+
+.shapes {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.shape {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(4px);
+  opacity: 0.18;
+}
+
+.shape1 {
+  width: 340px;
+  height: 340px;
+
+  background: var(--color-primary);
+
+  top: -80px;
+  right: -60px;
+
+  animation: float1 12s ease-in-out infinite;
+}
+
+.shape2 {
+  width: 220px;
+  height: 220px;
+
+  border: 2px solid var(--color-primary);
+  background: transparent;
+
+  bottom: 10%;
+  left: -60px;
+
+  opacity: 0.25;
+
+  animation: float2 14s ease-in-out infinite;
+}
+
+.shape3 {
+  width: 120px;
+  height: 120px;
+
+  background: var(--color-white);
+
+  bottom: 20%;
+  right: 12%;
+
+  opacity: 0.06;
+
+  animation: float1 10s ease-in-out infinite reverse;
+}
+
+@keyframes float1 {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+
+  50% {
+    transform: translateY(-30px) translateX(15px);
+  }
+}
+
+@keyframes float2 {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(20px) rotate(20deg);
+  }
+}
+
+/* =========================================================
+   HERO CONTENT
+   ========================================================= */
+
+.heroInner {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  max-width: 1500px;
+
+  min-height: 100vh;
+
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.heroContent {
+  width: 52%;
+  max-width: 680px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  text-align: left;
+}
+
+/* =========================================================
+   EYEBROW
+   ========================================================= */
+
+.eyebrow {
+  color: var(--color-primary);
+
+  font-weight: 600;
+  font-size: 14px;
+
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+
+/* =========================================================
+   MAIN TITLE
+   ========================================================= */
+
+.title {
+  font-size: clamp(42px, 7vw, 84px);
+
+  color: var(--color-white);
+
+  margin-bottom: 18px;
+
+  line-height: 1.05;
+}
+
+/* =========================================================
+   SUBTITLE
+   ========================================================= */
+
+.subtitle {
+  font-size: clamp(18px, 2.2vw, 24px);
+
+  color: rgba(255, 255, 255, 0.9);
+
+  font-family: var(--font-heading);
+  font-weight: 500;
+
+  line-height: 1.45;
+
+  margin-bottom: 20px;
+}
+
+/* =========================================================
+   TAGLINE
+   ========================================================= */
+
+.tagline {
+  font-size: 16.5px;
+
+  color: rgba(255, 255, 255, 0.75);
+
+  line-height: 1.75;
+
+  max-width: 620px;
+
+  margin-bottom: 40px;
+}
+
+/* =========================================================
+   CTA BUTTONS
+   ========================================================= */
+
+.ctaRow {
+  display: flex;
+
+  gap: 18px;
+
+  flex-wrap: wrap;
+}
+
+/* =========================================================
+   SCROLL INDICATOR
+   ========================================================= */
+
+.scrollIndicator {
+  position: absolute;
+
+  bottom: 36px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  color: rgba(255, 255, 255, 0.6);
+
+  z-index: 3;
+}
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1080px) {
+  .heroInner {
+    padding: 0 40px;
+  }
+
+  .heroContent {
+    width: 58%;
+  }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 880px) {
+  .hero {
+    min-height: 100svh;
+  }
+
+  .heroInner {
+    min-height: 100svh;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 180px 32px 120px;
+  }
+
+  .heroContent {
+    width: 100%;
+    max-width: 680px;
+  }
+
+  /*
+   * Keep the important part of the background visible
+   * on mobile. Since the person is on the right side
+   * of the hero image, shift the image slightly right.
+   */
+  .bgLayer {
+    background-position: 65% center;
+  }
+
+  .overlay {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(17, 17, 17, 0.94) 0%,
+        rgba(17, 17, 17, 0.78) 55%,
+        rgba(17, 17, 17, 0.45) 100%
+      ),
+      linear-gradient(
+        180deg,
+        rgba(17, 17, 17, 0.3) 0%,
+        rgba(17, 17, 17, 0.7) 100%
+      );
+  }
+
+  .ctaRow {
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 12px;
+  }
+
+  .ctaRow a {
+    width: 100%;
+  }
+
+  .scrollIndicator {
+    bottom: 20px;
+  }
+}
+
+/* Mobile layout: image on top, text section below */
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    overflow: visible;
+    background: #000;
+  }
+
+  .bgLayer,
+  .overlay,
+  .shapes {
+    display: none;
+  }
+
+  .mobileImageWrap {
+    display: block;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .mobileImageWrap img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 9 / 11.2;
+    object-fit: cover;
+    object-position: 50% 18%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .mobileImageWrap::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 42%,
+      rgba(0, 0, 0, 0.12) 58%,
+      rgba(0, 0, 0, 0.52) 78%,
+      rgba(0, 0, 0, 0.92) 100%
+    );
+  }
+
+  .heroInner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    min-height: auto;
+    margin: 0;
+    padding: 0 24px 24px;
+    box-sizing: border-box;
+  }
+
+  .heroContent {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin: 0;
+    padding: 16px 0 0;
+    box-sizing: border-box;
+  }
+
+  .eyebrow {
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+
+  .title {
+    margin-bottom: 14px;
+    font-size: clamp(32px, 9vw, 52px);
+    line-height: 0.96;
+    word-break: keep-all;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    margin-bottom: 18px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .tagline {
+    margin-bottom: 24px;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .ctaRow {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .ctaRow a {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .scrollIndicator {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: clamp(30px, 12vw, 46px);
+  }
+
+  .subtitle {
+    font-size: 17px;
+  }
+
+  .tagline {
+    font-size: 15px;
+    line-height: 1.65;
+    margin-bottom: 24px;
+  }
+
+  .ctaRow {
+    gap: 12px;
+  }
+}
+
+/* =========================================================
+   REDUCED MOTION ACCESSIBILITY
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .bgLayer,
+  .shape1,
+  .shape2,
+  .shape3 {
+    animation: none;
+  }
+}
+

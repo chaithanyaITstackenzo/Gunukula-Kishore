@@ -1,0 +1,20 @@
+{
+  "heading": "About Gunukula Kishore",
+  "image": "/src/assets/about-portrait.png",
+  "introduction": "Gunukula Kishore served as the District General Secretary of the Janasena Party in Nellore, Andhra Pradesh. A committed grassroots leader, he has worked consistently to strengthen the party's presence and voice the concerns of the people of Nellore district.",
+  "leadership": "As a senior functionary of Janasena in Nellore district, Kishore plays an active role in organizational activities, public outreach and mobilizing party workers (Jana Sainiks) around the district.",
+  "publicService": "He has been a vocal advocate on local governance issues, regularly engaging with the media and public on matters affecting Nellore district, from infrastructure to accountability in local administration.",
+  "values": [
+    "Honest Politics",
+    "Social Transformation",
+    "Grassroots Service",
+    "Party Discipline & Loyalty"
+  ],
+  "stats": [
+    { "label": "Years in Public Service", "value": 10, "suffix": "+" },
+    { "label": "Public Programs Led", "value": 500, "suffix": "+" },
+    { "label": "Villages Reached", "value": 500, "suffix": "+" },
+    { "label": "Jana Sainiks Mobilized", "value": 10000, "suffix": "+" }
+  ],
+  "_note": "Statistics are placeholders (marked as management estimates) — replace with verified numbers. Introduction/leadership/publicService text is drafted from public news coverage; refine with details from the source website or Kishore's team."
+}

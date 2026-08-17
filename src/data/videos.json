@@ -1,0 +1,19 @@
+{
+  "heading": "Videos",
+  "subheading": "Latest updates from the official YouTube channel",
+  "items": [
+    { "id": 1, "title": "Shorts", "youtubeId": "FU9Neon6LS8" },
+    { "id": 2, "title": "Shorts", "youtubeId": "qrCqHFDMqT8" },
+    { "id": 3, "title": "Shorts", "youtubeId": "QDYaz_xIfIk" },
+    { "id": 4, "title": "Shorts", "youtubeId": "zB0lXX4hXCo" },
+    { "id": 5, "title": "Shorts", "youtubeId": "bvpLlry107U" },
+    { "id": 6, "title": "Shorts", "youtubeId": "fxfZHdAdGQo" },
+    { "id": 7, "title": "Shorts", "youtubeId": "VOSUuR_ODME" },
+    { "id": 8, "title": "Shorts", "youtubeId": "MrVx21krSBU" },
+    { "id": 9, "title": "Shorts", "youtubeId": "8pL9QDLXo-w" },
+    { "id": 10, "title": "Shorts", "youtubeId": "y4Sn51wBQFQ" }
+    
+    
+  ]
+}
+

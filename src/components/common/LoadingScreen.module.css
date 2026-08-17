@@ -1,0 +1,52 @@
+.screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: linear-gradient(135deg, #07131f 0%, #0c1727 34%, #020b14 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logoBadge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgeCircle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d91a2f;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
+  overflow: hidden;
+}
+
+.badgeIcon {
+  width: 72%;
+  height: 72%;
+  object-fit: contain;
+  display: block;
+}
+
+.barTrack {
+  width: 200px;
+  height: 4px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.14);
+}
+
+.bar {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #f4d35e 0%, #ffffff 100%);
+  box-shadow: 0 0 16px rgba(255, 211, 94, 0.6);
+}

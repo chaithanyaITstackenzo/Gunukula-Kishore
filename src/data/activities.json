@@ -1,0 +1,359 @@
+{
+  "heading": "Activities",
+  "subheading": "Recent public engagements and events",
+  "filters": ["All", "2026", "2025", "2024", "2023", "2022", "2021"],
+  "items": [
+    {
+      "id": 1,
+      "title": "Janasena 13th Foundation Day Celebrations",
+      "date": "March 2026",
+      "year": "2026",
+      "location": "Janasena District Office, Nellore",
+      "description": "Led district-level celebrations of Janasena Party's 13th foundation day, calling on party workers to continue serving the public with commitment.",
+      "image": "/src/assets/activity-1.jpg"
+      ,"category": "Party Events & Celebrations"
+    },
+    {
+      "id": 2,
+      "title": "Flag-Hoisting Event, Kavali",
+      "date": "January 2025",
+      "year": "2025",
+      "location": "Nellore District",
+      "description": "Addressed party workers at a Janasena flag-hoisting event, highlighting the party's developmental commitments.",
+      "image": "/src/assets/activity-2.jpg"
+      ,"category": "Party Events & Celebrations"
+    },
+    {
+      "id": 3,
+      "title": "Media Briefing on Party Affairs",
+      "date": "September 2023",
+      "year": "2023",
+      "location": "Nellore",
+      "description": "Addressed media on political developments concerning Janasena leadership and district affairs.",
+      "image": "/src/assets/activity-3.jpg"
+      ,"category": "Public Outreach & Mobilization"
+    },
+    {
+      "id": 4,
+      "title": "KISHORE AT Janasena CENTRAL OFFICE REVIEW MEETING",
+      "date": "October 2022",
+      "year": "2022",
+      "location": "MANGALAGIRI",
+      "description": "Kishore attended the review meeting at the Janasena central office with Naga Babu, reaffirming his commitment with the message \"Na Sena Kosam Na Vantu.\"",
+      "image": "/src/assets/activity-4.jpg"
+      ,"category": "Party & Organization"
+    },
+    {
+      "id": 5,
+      "title": "GUNUKULA KISHORE SUPPORTS COVID-19 CARE WITH FOOD DISTRIBUTION",
+      "date": "June 2021",
+      "year": "2021",
+      "location": "Nellore",
+      "description": "Gunukula Kishore facilitated the distribution of meals to 500 COVID-19 patients and attendants at Nellore Government Hospital on day one. Kishore emphasized Janasena’s commitment to community welfare and assisting those affected during the pandemic.",
+      "image": "/src/assets/activity-5.jpg"
+      ,"category": "Health & Medical"
+    },
+    {
+      "id": 6,
+      "title": "COVID-19 Relief Mission – Serving Humanity During the Pandemic",
+      "date": "May 2021",
+      "year": "2021",
+      "location": "Nellore District",
+      "description": "Led and participated in a month-long COVID-19 relief mission by distributing food and essential supplies to families affected by the pandemic. Worked alongside volunteers to ensure timely support reached vulnerable communities during the public health crisis.",
+      "image": "/src/assets/activity-6.jpg"
+      ,"category": "Humanitarian & Community Welfare"
+    },
+    {
+      "id": 7,
+      "title": "Appointment as District General Secretary",
+      "date": "August 2021",
+      "year": "2021",
+      "location": "Nellore",
+      "description": "Was appointed as the District General Secretary of the Jana Sena Party. Expressed gratitude to the party leadership and reaffirmed his commitment to strengthening the organization and serving the people with dedication.",
+      "image": "/src/assets/activity-7.jpg"
+      ,"category": "Party & Organization"
+    },
+    {
+      "id": 8,
+      "title": "Panchayat Election Campaign Leadership",
+      "date": "September 2021",
+      "year": "2021",
+      "location": "Kota, Vallipedu, Kalivelapalem, Padugupadu, Kovur & Kandamuru",
+      "description": "Actively led and coordinated Panchayat election campaign activities across multiple villages by organizing volunteers, engaging with local communities and promoting the Jana Sena Party's vision at the grassroots level.",
+      "image": "/src/assets/activity-8.jpg"
+      ,"category": "Elections & Democracy"
+    },
+    {
+      "id": 9,
+      "title": "Youth & Organizational Development",
+      "date": "October 2021",
+      "year": "2021",
+      "location": "Nellore",
+      "description": "Participated in the District Executive Committee meeting and organizational review following the formation of the district committee. Focused on strengthening the party structure, empowering youth leaders and improving coordination among party cadres.",
+      "image": "/src/assets/activity-9.jpg"
+      ,"category": "Party & Organization"
+    },
+    {
+      "id": 10,
+      "title": "People's Voice Through Democratic Movements",
+      "date": "December 2021",
+      "year": "2021",
+      "location": "Nellore",
+      "description": "Addressed public issues through press meetings and democratic movements by supporting unemployed youth, raising public concerns and advocating for transparent governance and people-centric policies.",
+      "image": "/src/assets/activity-10.jpg"
+      ,"category": "Protest & Public Advocacy"
+    },
+    {
+      "id": 11,
+      "title": "Jana Sena Digital Campaign Leadership",
+      "date": "January 2022",
+      "year": "2022",
+      "location": "Nellore District",
+      "description": "Led the Jana Sena Party's digital campaign initiatives by coordinating online outreach, creating awareness through social media, promoting the party's vision and engaging citizens through innovative digital communication strategies.",
+      "image": "/src/assets/activity-11.jpg"
+      ,"category": "Digital & Technology"
+    },
+    {
+      "id": 12,
+      "title": "My Contribution for My Sena Campaign",
+      "date": "April 2022",
+      "year": "2022",
+      "location": "Nellore District",
+      "description": "Actively participated in the 'My Contribution for My Sena' campaign, encouraging public participation and voluntary contributions to strengthen the Jana Sena Party while promoting transparency and collective responsibility among supporters.",
+      "image": "/src/assets/activity-12.jpg"
+      ,"category": "Public Contributions & Campaigns"
+    },
+    {
+      "id": 13,
+      "title": "Public Protest for Muttukooru Bridge",
+      "date": "July 2022",
+      "year": "2022",
+      "location": "Nellore",
+      "description": "Organized and participated in a public protest demanding immediate action for the construction and improvement of the Muttukooru Bridge, highlighting the safety concerns and transportation challenges faced by local residents.",
+      "image": "/src/assets/activity-13.jpg"
+      ,"category": "Protest & Public Advocacy"
+    },
+    {
+      "id": 14,
+      "title": "Standing with Ippatam Village",
+      "date": "October 2022",
+      "year": "2022",
+      "location": "Ippatam Village",
+      "description": "Extended support to the residents of Ippatam Village by standing in solidarity with the local community during public issues, advocating for their rights and reinforcing the Jana Sena Party's commitment to democratic values and people's welfare.",
+      "image": "/src/assets/activity-14.jpg"
+      ,"category": "Protest & Public Advocacy"
+    },
+    {
+      "id": 15,
+      "title": "Rally Supporting Pawan Kalyan Garu's Vision",
+      "date": "December 2022",
+      "year": "2022",
+      "location": "Nellore District",
+      "description": "Participated in and organized public rallies supporting the vision and leadership of Shri Pawan Kalyan Garu Garu, mobilizing party workers and citizens to strengthen the Jana Sena Party's mission of transparent governance and public service.",
+      "image": "/src/assets/activity-15.jpg"
+      ,"category": "Public Outreach & Mobilization"
+    },
+    {
+      "id": 16,
+      "title": "Janaswaram Calendar & Public Outreach",
+      "date": "January 2023",
+      "year": "2023",
+      "location": "Nellore District",
+      "description": "Participated in the launch and promotion of the Janaswaram Calendar while engaging with citizens through extensive public outreach programs. The initiative strengthened connections with local communities and communicated the Jana Sena Party's vision for transparent governance and public service.",
+      "image": "/src/assets/activity-16.jpg"
+      ,"category": "Public Outreach & Mobilization"
+    },
+    {
+      "id": 17,
+      "title": "Varahi Yatra Public Mobilization",
+      "date": "July 2023",
+      "year": "2023",
+      "location": "Nellore",
+      "description": "Played a key role in organizing and mobilizing public participation during the historic Varahi Yatra led by Shri Pawan Kalyan Garu Garu. Coordinated volunteers, managed grassroots campaign activities and encouraged large-scale citizen participation across the region.",
+      "image": "/src/assets/activity-17.jpg"
+      ,"category": "Public Outreach & Mobilization"
+    },
+    {
+      "id": 18,
+      "title": "#MyFirstVoteForJanasena Campaign",
+      "date": "October 2023",
+      "year": "2023",
+      "location": "Nellore",
+      "description": "Actively promoted the #MyFirstVoteForJanasena campaign by engaging first-time voters, organizing awareness programs and encouraging youth participation in the democratic process while spreading the vision of the Jana Sena Party.",
+      "image": "/src/assets/activity-18.jpg"
+      ,"category": "Elections & Democracy"
+    },
+    {
+      "id": 19,
+      "title": "Farmers' Rights & Public Advocacy",
+      "date": "November 2023",
+      "year": "2023",
+      "location": "Nellore District",
+      "description": "Raised issues concerning farmers' welfare through public meetings, awareness campaigns and advocacy initiatives. Worked alongside local communities to highlight agricultural challenges and support policies aimed at improving farmers' livelihoods and rural development.",
+      "image": "/src/assets/activity-19.jpg"
+      ,"category": "Farmers & Rural Development"
+    },
+    {
+      "id": 20,
+      "title": "Humanitarian Service & Community Welfare",
+      "date": "December 2023",
+      "year": "2023",
+      "location": "Nellore District",
+      "description": "Led and participated in multiple humanitarian and community welfare initiatives by extending support to underprivileged families, assisting people during emergencies and organizing social service programs that reflected the Jana Sena Party's commitment to public welfare.",
+      "image": "/src/assets/activity-20.jpg"
+      ,"category": "Humanitarian & Community Welfare"
+    },
+    {
+      "id": 21,
+      "title": "Janaswaram Calendar Launch",
+      "date": "January 2024",
+      "year": "2024",
+      "location": "Nellore",
+      "description": "Participated in the launch of the Janaswaram Calendar, engaging with party leaders, supporters and the public to promote the Jana Sena Party's vision of transparent governance, public service and grassroots development.",
+      "image": "/src/assets/activity-21.jpg"
+      ,"category": "Party Events & Celebrations"
+    },
+    {
+      "id": 22,
+      "title": "Support for Contract Municipal Workers",
+      "date": "February 2024",
+      "year": "2024",
+      "location": "Nellore",
+      "description": "Extended solidarity and support to contract municipal workers during their protest, advocating for fair employment conditions, improved welfare measures and timely resolution of their grievances through democratic dialogue.",
+      "image": "/src/assets/activity-22.jpg"
+      ,"category": "Workers & Employment"
+    },
+    {
+      "id": 23,
+      "title": "Meeting with Dr. Ponguru Narayana",
+      "date": "March 2024",
+      "year": "2024",
+      "location": "Nellore",
+      "description": "Along with Jana Sena Party leaders and members of Chiranjeevi Yuvatha, met Dr. Ponguru Narayana to discuss matters concerning public welfare, regional development and issues affecting local communities, emphasizing collaborative efforts for social progress.",
+      "image": "/src/assets/activity-23.jpg"
+      ,"category": "Public Grievances & Governance"
+    },
+    {
+      "id": 24,
+      "title": "Advocacy for Minority Education",
+      "date": "April 2024",
+      "year": "2024",
+      "location": "Nellore",
+      "description": "Together with Jana Sena leader Jani Master, highlighted issues affecting minority education institutions and extended support to students and educational communities by advocating for equal educational opportunities and improved facilities.",
+      "image": "/src/assets/activity-24.jpg"
+      ,"category": "Education & Youth"
+    },
+    {
+      "id": 25,
+      "title": "Support for Anganwadi Worker's Family",
+      "date": "May 2024",
+      "year": "2024",
+      "location": "Nellore",
+      "description": "Along with Jani Master, visited and extended support to the family of an Anganwadi worker, expressing solidarity during a difficult time and reaffirming the Jana Sena Party's commitment to humanitarian service and community welfare.",
+      "image": "/src/assets/activity-25.jpg"
+      ,"category": "Humanitarian & Community Welfare"
+    },
+    {
+      "id": 26,
+      "title": "Championing Public Grievances Through JanaVani",
+      "date": "04 Jan 2025",
+      "year": "2025",
+      "location": "Nellore",
+      "description": "Actively participated in the JanaVani public grievance initiative by listening to citizens' concerns, documenting their issues and coordinating with party leaders and local authorities to facilitate timely resolutions. The initiative reinforced the Jana Sena Party's commitment to responsive and people-centric governance.",
+      "image": "/src/assets/activity-26.jpg"
+      ,"category": "Public Grievances & Governance"
+    },
+    {
+      "id": 27,
+      "title": "Driving Better Living Standards for TIDCO Families",
+      "date": "02 Jan 2025",
+      "year": "2025",
+      "location": "Nellore",
+      "description": "Visited TIDCO housing communities to understand the challenges faced by residents and advocated for improved living conditions, essential civic amenities and timely completion of development works to enhance the quality of life for beneficiary families.",
+      "image": "/src/assets/activity-27.jpg"
+      ,"category": "Housing & Civic Development"
+    },
+    {
+      "id": 28,
+      "title": "Rapid Response to Civic Infrastructure Challenges",
+      "date": "07 Apr 2025",
+      "year": "2025",
+      "location": "Nellore",
+      "description": "Responded promptly to public complaints regarding drainage blockages, sanitation and cleanliness issues. Conducted field inspections, interacted with local residents and coordinated with municipal authorities to ensure swift corrective measures and improve civic infrastructure.",
+      "image": "/src/assets/activity-28.jpg"
+      ,"category": "Housing & Civic Development"
+    },
+    {
+      "id": 29,
+      "title": "Mobilising Massive Public Participation for Jana Sena Formation Day",
+      "date": "14 Mar 2025",
+      "year": "2025",
+      "location": "Nellore District",
+      "description": "Led large-scale public mobilization and coordinated party workers for the Jana Sena Party Formation Day celebrations. Encouraged widespread citizen participation through outreach programs, strengthening the party's grassroots presence and organizational unity.",
+      "image": "/src/assets/activity-29.jpg"
+      ,"category": "Public Outreach & Mobilization"
+    },
+    {
+      "id": 30,
+      "title": "Serving Communities Through Health & Social Welfare Initiatives",
+      "date": "23 Feb 2025",
+      "year": "2025",
+      "location": "Nellore",
+      "description": "Organized and supported a community medical camp as part of the Jana Sena Party's social welfare initiatives. The program provided healthcare services, medical consultations and public health awareness while reinforcing the party's commitment to community well-being.",
+      "image": "/src/assets/activity-30.jpg"
+      ,"category": "Health & Medical"
+    },
+    {
+      "id": 31,
+      "title": "New Year Message to the People of Andhra Pradesh",
+      "date": "01 Jan 2026",
+      "year": "2026",
+      "location": "Nellore District",
+      "description": "Extended New Year greetings to the people of Andhra Pradesh, expressing gratitude for their continued trust and support while reaffirming his commitment to public service, transparent governance and the welfare of every citizen.",
+      "image": "/src/assets/activity-31.jpg"
+      ,"category": "Public Outreach & Mobilization"
+    },
+    {
+      "id": 32,
+      "title": "Inspection of 104 & 108 Ambulance Services",
+      "date": "06 Jan 2026",
+      "year": "2026",
+      "location": "Nellore",
+      "description": "Conducted inspections of the 104 and 108 emergency ambulance services to assess operational efficiency, service quality and emergency healthcare readiness. Interacted with medical personnel and emphasized the importance of timely healthcare delivery for the public.",
+      "image": "/src/assets/activity-32.jpg"
+      ,"category": "Health & Medical"
+    },
+    {
+      "id": 33,
+      "title": "AI & Robotics Discussion with Youth",
+      "date": "09 Jan 2026",
+      "year": "2026",
+      "location": "Nellore",
+      "description": "Participated in an interactive discussion with students and young innovators on Artificial Intelligence and Robotics, encouraging youth to embrace emerging technologies, innovation and skill development for a better future.",
+      "image": "/src/assets/activity-33.jpg"
+      ,"category": "Education & Youth"
+    },
+    {
+      "id": 34,
+      "title": "Inspection of Public Issues at Mettla Revu",
+      "date": "20 Jan 2026",
+      "year": "2026",
+      "location": "Mettla Revu",
+      "description": "Visited Mettla Revu to inspect public infrastructure issues and interact directly with local residents. Assessed civic concerns, reviewed ongoing challenges and urged the concerned authorities to take timely corrective action for the benefit of the community.",
+      "image": "/src/assets/activity-34.jpg"
+      ,"category": "Public Grievances & Governance"
+    },
+    {
+      "id": 35,
+      "title": "Pension Distribution Programme with Minister Dr. Ponguru Narayana",
+      "date": "31 Jan 2026",
+      "year": "2026",
+      "location": "Nellore",
+      "description": "Participated in the pension distribution programme alongside Minister Dr. Ponguru Narayana, interacting with beneficiaries and reaffirming the commitment to ensuring timely welfare benefits and strengthening public service initiatives for senior citizens and eligible families.",
+      "image": "/src/assets/activity-35.jpg"
+      ,"category": "Welfare & Public Benefits"
+    }
+  ],
+  "_note": "Sourced from public news coverage; replace images and expand descriptions using details from the source site."
+}
+

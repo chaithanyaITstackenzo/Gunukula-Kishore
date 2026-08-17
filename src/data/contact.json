@@ -1,0 +1,15 @@
+{
+  "heading": "Get in Touch",
+  "subheading": "Connect with Gunukula Kishore's office",
+  "address": "Janasena Party District Office, Nellore, Andhra Pradesh, India",
+  "phone": "+91-XXXXXXXXXX",
+  "email": "contact@gunukulakishore.com",
+  "mapCoordinates": { "lat": 14.4426, "lng": 79.9865 },
+  "socialLinks": [
+    { "platform": "Facebook", "url": "#", "icon": "FaFacebook" },
+    { "platform": "Twitter", "url": "#", "icon": "FaTwitter" },
+    { "platform": "Instagram", "url": "#", "icon": "FaInstagram" },
+    { "platform": "YouTube", "url": "#", "icon": "FaYoutube" }
+  ],
+  "_note": "Phone, email, exact address and social links are placeholders — replace with verified official contact details."
+}
