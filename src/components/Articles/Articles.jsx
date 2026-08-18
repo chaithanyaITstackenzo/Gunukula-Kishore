@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import data from '../../data/articles.json';
 import styles from './Articles.module.css';
 
-const DEFAULT_IMAGE = '/src/assets/about-portrait.png';
+const DEFAULT_IMAGE = '/images/about-portrait.png';
 
 export default function Articles() {
   const items = data.items || [];
@@ -16,7 +16,7 @@ export default function Articles() {
     <section id="articles" className={`section ${styles.wrap}`}>
       <div className="container">
         <div className={styles.header}>
-          <span className="section-label">MEDIA COVERAGE</span>
+          <span className="section-label">MEDIA</span>
           <h2 className="section-heading">{data.heading}</h2>
           <p className="section-subheading">{data.description}</p>
         </div>
