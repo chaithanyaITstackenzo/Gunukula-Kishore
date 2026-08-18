@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
+import glassTumblerIcon from '../../assets/symbol_glass_tumbler_red.svg';
 import styles from './CustomCursor.module.css';
 
 export default function CustomCursor() {
-  const dotRef = useRef(null);
-  const ringRef = useRef(null);
+  const cursorRef = useRef(null);
   const [enabled, setEnabled] = useState(false);
   const [hovering, setHovering] = useState(false);
 
@@ -13,7 +13,7 @@ export default function CustomCursor() {
     setEnabled(mq.matches);
 
     const pos = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
-    const ring = { x: pos.x, y: pos.y };
+    const cursor = { x: pos.x, y: pos.y };
 
     const onMove = (e) => { pos.x = e.clientX; pos.y = e.clientY; };
     const onOver = (e) => {
@@ -25,10 +25,11 @@ export default function CustomCursor() {
 
     let raf;
     const tick = () => {
-      ring.x += (pos.x - ring.x) * 0.18;
-      ring.y += (pos.y - ring.y) * 0.18;
-      if (dotRef.current) dotRef.current.style.transform = `translate3d(${pos.x}px, ${pos.y}px, 0)`;
-      if (ringRef.current) ringRef.current.style.transform = `translate3d(${ring.x}px, ${ring.y}px, 0)`;
+      cursor.x += (pos.x - cursor.x) * 0.25;
+      cursor.y += (pos.y - cursor.y) * 0.25;
+      if (cursorRef.current) {
+        cursorRef.current.style.transform = `translate3d(${cursor.x}px, ${cursor.y}px, 0)`;
+      }
       raf = requestAnimationFrame(tick);
     };
 
@@ -52,7 +53,6 @@ export default function CustomCursor() {
       else stop();
     };
 
-    // Start listeners only when the media query matches
     if (mq.matches) start();
     if (mq.addEventListener) mq.addEventListener('change', mqChange);
     else mq.addListener(mqChange);
@@ -67,9 +67,11 @@ export default function CustomCursor() {
   if (!enabled) return null;
 
   return (
-    <>
-      <div ref={dotRef} className={styles.dot} />
-      <div ref={ringRef} className={`${styles.ring} ${hovering ? styles.ringHover : ''}`} />
-    </>
+    <img
+      ref={cursorRef}
+      src={glassTumblerIcon}
+      alt=""
+      className={`${styles.cursorIcon} ${hovering ? styles.cursorIconHover : ''}`}
+    />
   );
 }
