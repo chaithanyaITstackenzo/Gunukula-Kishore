@@ -5,7 +5,7 @@
   "slogan": "Serving People. Serving the Nation.",
   "tagline": "Committed to honest politics, social transformation and the ideals of the Janasena movement under the leadership of Sri Pawan Kalyan Garu.",
   "backgroundImage": "/images/hero-bg.png",
-  "mobileBackgroundImage": "/images/hero-bg-mobile.png",
+  "mobileBackgroundImage": "/images/hero-bg mobile.png",
   "ctaButtons": [
     { "label": "Know More", "target": "about", "type": "primary" },
     { "label": "Contact", "target": "contact", "type": "secondary" }
