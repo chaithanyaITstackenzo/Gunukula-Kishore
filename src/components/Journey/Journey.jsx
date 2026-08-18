@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 import styles from './Journey.module.css';
+import journeyData from '../../data/journey.json';
 
 export default function Journey() {
   const [milestones, setMilestones] = useState([]);
@@ -12,22 +13,14 @@ export default function Journey() {
   const shouldScrollStrip = useRef(false);
 
   useEffect(() => {
-    fetch('/src/data/journey.json')
-      .then((res) => res.json())
-      .then((data) => {
-        const nextMilestones = data.milestones ?? [];
-        setMilestones(nextMilestones);
-        setActiveId((current) => {
-          if (nextMilestones.some((m) => m.id === current)) {
-            return current;
-          }
-          return nextMilestones[0]?.id ?? 0;
-        });
-      })
-      .catch(() => {
-        setMilestones([]);
-        setActiveId(0);
-      });
+    const nextMilestones = journeyData.milestones ?? [];
+    setMilestones(nextMilestones);
+    setActiveId((current) => {
+      if (nextMilestones.some((m) => m.id === current)) {
+        return current;
+      }
+      return nextMilestones[0]?.id ?? 0;
+    });
   }, []);
 
   const current = useMemo(() => {
