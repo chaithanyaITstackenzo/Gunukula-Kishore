@@ -7,7 +7,7 @@
       "year": "2017",
       "title": "Beginning of Political Journey",
       "description": "In 2017, Gunukula Kishore joined the Janasena Party under the leadership of Shri Pawan Kalyan Garu. This marked the beginning of his public service journey, where he dedicated himself to strengthening the party at the grassroots level and serving the people with commitment, integrity and transparency.",
-      "image": "/src/assets/journey-1.png",
+      "image": "/images/journey-1.png",
       "status": "complete"
     },
     {
@@ -15,7 +15,7 @@
       "year": "2018",
       "title": "Strengthening the Janasena Party",
       "description": "After joining the Janasena Party, Gunukula Kishore actively worked to strengthen the party at the grassroots level across the region. He focused on expanding the party's organizational network, engaging with youth and local communities, coordinating party activities and promoting the vision and ideology of Shri Pawan Kalyan Garu through dedicated public service.",
-      "image": "/src/assets/journey-2.jpeg",
+      "image": "/images/journey-2.jpeg",
       "status": "complete"
     },
    {
@@ -23,7 +23,7 @@
       "year": "2019",
       "title": "Election Campaign Leadership",
       "description": "During the 2019 Andhra Pradesh Assembly Elections, Gunukula Kishore actively campaigned for the Janasena Party's MLA candidate. He played a key role in organizing grassroots campaigns, coordinating volunteers, conducting door-to-door outreach, interacting with voters and promoting the vision and policies of Shri Pawan Kalyan Garu across the constituency.",
-      "image": "/src/assets/journey-3.jpeg",
+      "image": "/images/journey-3.jpeg",
       "status": "complete"
  },
     {
@@ -31,7 +31,7 @@
       "year": "2020",
       "title": "Appointed as Yuvajana Vibhagam Adhyakshudu",
       "description": "In 2020, Gunukula Kishore was appointed as the Janasena Party Yuvajana Vibhagam Adhyakshudu (Youth Wing President). In this leadership role, he focused on strengthening the youth wing, inspiring young volunteers to participate in public service, organizing party programs and expanding the party's grassroots presence through active youth engagement.",
-      "image": "/src/assets/journey-4.png",
+      "image": "/images/journey-4.png",
       "status": "complete"
     },
     {
@@ -39,7 +39,7 @@
       "year": "2021",
       "title": "Appointed as District General Secretary",
       "description": "In 2021, Gunukula Kishore was appointed as the District General Secretary of the Janasena Party in recognition of his dedication, organizational leadership and commitment to public service. In this role, he coordinated district-level party activities, strengthened the party organization, guided local leadership and worked to expand the party's reach across the district.",
-      "image": "/src/assets/journey-5.jpg",
+      "image": "/images/journey-5.jpg",
       "status": "complete"
     },
     {
@@ -47,7 +47,7 @@
       "year": "2022",
       "title": "Led Janasena Digital Campaign",
       "description": "In 2022, Gunukula Kishore took a leading role in the Janasena Party's digital campaign initiatives. He spearheaded online outreach, coordinated digital communication strategies, promoted the party's vision across social media platforms and strengthened public engagement through innovative digital campaigns and grassroots connectivity.",
-      "image": "/src/assets/journey-6.png",
+      "image": "/images/journey-6.png",
       "status": "complete"
     },
     {
@@ -55,7 +55,7 @@
       "year": "2023",
       "title": "Varahi Yatra Public Mobilization",
       "description": "In 2023, Gunukula Kishore played a key role in the successful organization and public mobilization of the Janasena Party's Varahi Yatra. He coordinated grassroots volunteers, engaged with local communities, managed campaign activities and helped ensure widespread public participation, contributing to the success of the yatra across the district.",
-      "image": "/src/assets/journey-7.png",
+      "image": "/images/journey-7.png",
       "status": "complete"
     },
     {
@@ -63,7 +63,7 @@
      "year": "2024",
      "title": "Advocacy for Minority Education",
      "description": "In 2024, Gunukula Kishore, along with Janasena leader Jani Master, highlighted critical issues affecting minority education institutions and extended support to students and educational communities. Through public engagement, awareness initiatives and advocacy, they worked to bring attention to educational challenges and promote equal opportunities for all sections of society.",
-     "image": "/src/assets/journey-8.png",
+     "image": "/images/journey-8.png",
      "status": "complete"
     },
     {
@@ -71,7 +71,7 @@
       "year": "2025",
       "title": "Rapid Response to Civic Infrastructure Challenges",
       "description": "In 2025, Gunukula Kishore actively addressed civic infrastructure challenges by responding promptly to public concerns related to drainage, sanitation and cleanliness. Working closely with local authorities and community members, he initiated inspections, highlighted issues requiring immediate attention and advocated for timely solutions to improve public health and living conditions.",
-      "image": "/src/assets/journey-9.png",
+      "image": "/images/journey-9.png",
       "status": "complete"
     },
     {
@@ -79,7 +79,7 @@
       "year": "2026",
       "title": "Inspection of 104 & 108 Ambulance Services",
       "description": "In January 2026, Gunukula Kishore conducted field inspections of the 104 and 108 ambulance services to assess the quality and efficiency of emergency healthcare delivery. He interacted with medical staff, reviewed operational conditions, identified areas requiring improvement and advocated for better emergency medical services to ensure timely healthcare support for the public.",
-      "image": "/src/assets/journey-10.png",
+      "image": "/images/journey-10.png",
       "status": "current"
     }
   ],
