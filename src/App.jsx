@@ -11,7 +11,6 @@ import Achievements from './components/Achievements/Achievements';
 import Footer from './components/Footer/Footer';
 import LoadingScreen from './components/common/LoadingScreen';
 import ScrollProgress from './components/common/ScrollProgress';
-import CustomCursor from './components/common/CustomCursor';
 import SectionFallback from './components/common/SectionFallback';
 import StructuredData from './components/common/StructuredData';
 
@@ -39,7 +38,6 @@ export default function App() {
       <a href="#main-content" className="skip-link">Skip to main content</a>
       <LoadingScreen loading={loading} />
       <ScrollProgress />
-      <CustomCursor />
       <Navbar />
       <main id="main-content">
         <Hero />
