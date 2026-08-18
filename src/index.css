@@ -129,7 +129,6 @@ img { display: block; max-width: 100%; }
   :root { --section-padding: var(--section-padding-mobile); }
   .container { padding: 0 20px; }
 }
-
 @media (hover: hover) and (pointer: fine) and (min-width: 981px) {
   body, a, button { cursor: none; }
 }

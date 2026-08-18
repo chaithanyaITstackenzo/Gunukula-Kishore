@@ -39,7 +39,7 @@ export default function App() {
       <a href="#main-content" className="skip-link">Skip to main content</a>
       <LoadingScreen loading={loading} />
       <ScrollProgress />
-      <CustomCursor />
+       <CustomCursor />
       <Navbar />
       <main id="main-content">
         <Hero />
