@@ -49,7 +49,18 @@ export default function Footer() {
       </div>
 
       <div className={`container ${styles.bottom}`}>
-        <span>&copy; {new Date().getFullYear()} . All rights reserved by Stackenzo.</span>
+       <span>
+  &copy; {new Date().getFullYear()} . All rights reserved by{' '}
+  <a
+    href="https://www.stackenzo.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className={styles.stackenzoLink}
+  >
+    Stackenzo
+  </a>
+  .
+</span>
         <Link to="home" smooth duration={600} className={styles.backTop} aria-label="Back to top">
           <FaArrowUp size={14} />
         </Link>

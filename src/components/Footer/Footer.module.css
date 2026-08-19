@@ -54,7 +54,17 @@
   display: flex; align-items: center; justify-content: center;
   color: #fff;
 }
+.stackenzoLink {
+  color: #e31b23;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
 
+.stackenzoLink:hover {
+  color: #ff2b32;
+  text-decoration: underline;
+}
 @media (max-width: 820px) {
   .top { grid-template-columns: 1fr; }
   .bottom { flex-direction: column; gap: 14px; text-align: center; }
